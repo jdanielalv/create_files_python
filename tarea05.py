@@ -21,6 +21,6 @@ for x in range (5,9):
     file.close()
 
     print(" ***** Inicio test " + f"{x}" + " ceros *******  " + "{:,}".format(rango) + " numeros ******* ")
-    print(" Fecha hora de inicio: " + f"{inicio}" + " >> Fecha hora fin : " + f"{fin}")
+    print(" Fecha hora de inicio: " + f"{inicio}" + " >>  Fecha hora fin : " + f"{fin}")
     print(" Total tiempo de ejecución con : " + "{:,}".format(rango) + " numeros -> " + f"{diff}")
     rango = rango * 10
